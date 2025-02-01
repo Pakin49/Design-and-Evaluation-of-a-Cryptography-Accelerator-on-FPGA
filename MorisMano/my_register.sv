@@ -17,3 +17,10 @@ always @(posedge clk or posedge reset) begin
     end
 end
 endmodule
+
+module bus(
+    input [4:0] selector,
+    input [15:0] MEM_IN;
+    input [15:0] 
+)
+endmodule
