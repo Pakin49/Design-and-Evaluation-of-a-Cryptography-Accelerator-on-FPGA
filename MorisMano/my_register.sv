@@ -29,14 +29,7 @@ module data_bus(
 );
     always_comb begin
         case(selector)
-            3'b000 : data = MEM_IN;
-            3'b001 : data = AR;
-            3'b010 : data = PC;
-            3'b011 : data = DR;
-            3'b100 : data = AC;
-            3'b101 : data = IR;
-            3'b110 : data = TR;
-            default : data = 16'bZ;
+            
         endcase
     end
 endmodule
